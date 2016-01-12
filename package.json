@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/spec.js"
+    "test": "mocha-phantomjs -R dot SpecRunner.html"
   },
   "repository": {
     "type": "git",
