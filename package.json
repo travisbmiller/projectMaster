@@ -1,0 +1,26 @@
+{
+  "name": "projectmaster",
+  "version": "1.0.0",
+  "description": "Setting up readme file",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://travismiller1@github.com/travismiller1/projectMaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travismiller1/projectMaster/issues"
+  },
+  "homepage": "https://github.com/travismiller1/projectMaster#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
