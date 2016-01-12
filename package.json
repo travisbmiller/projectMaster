@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha-phantomjs -R dot SpecRunner.html"
+    "test": "standard && mocha-phantomjs -R spec SpecRunner.html"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/travismiller1/projectMaster#readme",
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
   },
   "dependencies": {
     "mocha-phantomjs": "^4.0.2"
